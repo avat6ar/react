@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Bold.ttf");
+  font-weight: 700;
+}
+
+.text-gradient-1 {
+  background: linear-gradient(
+    83deg,
+    #856edf 5.65%,
+    #7a288e 48.82%,
+    #fab35e 107.24%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon-gradient {
+  background: linear-gradient(
+    144.03deg,
+    #2b378f 0%,
+    #7a288e 42.5%,
+    #fab35e 100%
+  );
+}
+
+.icon-border {
+  border: 2px solid transparent;
+  border-image: linear-gradient(
+    144.03deg,
+    #2b378f 0%,
+    #7a288e 42.5%,
+    #fab35e 100%
+  );
+  border-image-slice: 1;
+}
+
+.icon-background {
+  background: linear-gradient(
+    144.03deg,
+    rgba(72, 54, 143, 0.5) 0%,
+    rgba(72, 54, 143, 0.25) 100%
+  );
+}
